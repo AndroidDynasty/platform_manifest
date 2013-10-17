@@ -14,7 +14,7 @@
            sync-f="true"
            sync-j="4" />
 
-  <project path="build" name="AndroidDynasty/platform_build" remote="github" revision="jb-mr2" groups="pdk" >
+  <project path="build" name="AndroidDynasty/platform_build" remote="github" revision="jb-mr2.0" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
