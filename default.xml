@@ -268,7 +268,7 @@
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
-  <project path="kernel/msm" name="kernel/msm" remote="aosp" revision="android-msm-mako-3.4-jb-mr2" />
+  <project path="kernel/msm" name="stratosk/kernel_msm" remote="github" revision="jb-4.3j" />
   <project path="libcore" name="platform/libcore" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
@@ -328,6 +328,7 @@
   <project path="packages/wallpapers/PhaseBeam" name="omnirom/android_packages_wallpapers_PhaseBeam" remote="github" revision="android-4.3" />
   <project path="packages/wallpapers/SunBeam" name="CarbonDev/android_packages_wallpapers_SunBeam" remote="github" revision="jb3" />
   <project path="pdk" name="platform/pdk" groups="pdk" />
+  <project path="prebuilt" name="AndroidDynasty/platform_prebuilt" remote="github" revision="jb-mr2" />
   <project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="pdk,darwin" />
   <project path="prebuilts/clang/darwin-x86/3.2" name="platform/prebuilts/clang/darwin-x86/3.2" groups="pdk,darwin" />
   <project path="prebuilts/clang/linux-x86/3.1" name="platform/prebuilts/clang/linux-x86/3.1" groups="pdk,linux" />
